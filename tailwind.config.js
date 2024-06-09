@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        'lg': '46px',
+      }
+    },
     fontFamily: {
       'fraunces': ["Fraunces", "serif"],
       'barlow': ["Barlow", "sans-serif"],
@@ -17,6 +23,7 @@ export default {
           'dark-desaturated-cyan': 'hsl(167, 40%, 24%)',
           'dark-blue': 'hsl(198, 62%, 26%)',
           'dark-moderate-cyan': 'hsl(168, 34%, 41%)',
+          'light-blue': '#55BFEF',
         },
         neutral: {
           'very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',
