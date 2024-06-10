@@ -1,9 +1,11 @@
+import Transform from "./Transform";
+
 const Home = () => {
   return (
-    <section className="home bg-primary-dark-blue w-full h-screen" id="home">
+    <>
+      <Transform />
+    </>
+  );
+};
 
-    </section>
-  )
-}
-
-export default Home
+export default Home;
