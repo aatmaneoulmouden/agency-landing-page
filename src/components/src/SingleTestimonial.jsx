@@ -10,7 +10,7 @@ const SingleTestimonial = (props) => {
         alt={name}
         className="w-20 rounded-full mx-auto"
       />
-      <p className="text-neutral-very-dark-grayish-blue font-medium leading-[30px]">
+      <p className="text-neutral-very-dark-grayish-blue font-semibold leading-[30px]">
         {comment}
       </p>
       <div>
