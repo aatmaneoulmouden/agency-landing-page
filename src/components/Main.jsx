@@ -1,5 +1,5 @@
 import ImageWithTextSection from "./src/ImageWithTextSection";
-import Transform from "./Transform";
+import Testimonials from "./src/Testimonials";
 
 const Main = () => {
   const imageWithTextSections = [
@@ -47,7 +47,7 @@ const Main = () => {
   return (
     <>
       {displayImageWithTextSections}
-      {/* <Transform /> */}
+      <Testimonials />
     </>
   );
 };
