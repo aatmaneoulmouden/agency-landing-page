@@ -1,4 +1,4 @@
-import SingleTestimonial from "./SingleTestimonial";
+import SingleTestimonial from "../src/SingleTestimonial";
 
 const Testimonials = () => {
   const testimonials = [

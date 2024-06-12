@@ -23,8 +23,10 @@ const SingleFeature = (props) => {
         </a>
       </div>
       <div
-        className={`bg-cover bg-center bg-[url('./desktop/${image}.jpg')] order-${imageOrder}`}
-      ></div>
+        className={`order-${imageOrder}`}
+      >
+        <img src={`./desktop/${image}.jpg`} alt={title} className="w-full h-full object-cover" />
+      </div>
     </div>
   );
 };

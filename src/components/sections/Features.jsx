@@ -22,9 +22,9 @@ const Features = () => {
       text: "2",
     };
 
-    if (index % 2 === 1) {
-      orders.image = 2;
-      orders.text = 1;
+    if (index % 2 !== 1) {
+      orders.image = "2";
+      orders.text = "1";
     }
 
     return <SingleFeature key={index} orders={orders} feature={feature} />;
