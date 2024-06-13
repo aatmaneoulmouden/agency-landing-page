@@ -8,7 +8,10 @@ const SingleFeature = (props) => {
 
   return (
     <div className="feature grid grid-cols-2">
-      <div className={`p-40 flex flex-col gap-9 order-${textOrder}`}>
+      <div
+        className="p-40 flex flex-col gap-9"
+        style={{ order: `${textOrder}` }}
+      >
         <h2 className="text-5xl font-extrabold font-fraunces leading-[54px] text-neutral-very-dark-desaturated-blue">
           {title}
         </h2>
@@ -22,10 +25,12 @@ const SingleFeature = (props) => {
           Learn more
         </a>
       </div>
-      <div
-        className={`order-${imageOrder}`}
-      >
-        <img src={`./desktop/${image}.jpg`} alt={title} className="w-full h-full object-cover" />
+      <div style={{ order: `${imageOrder}` }}>
+        <img
+          src={`./desktop/${image}.jpg`}
+          alt={title}
+          className="w-full h-full object-cover"
+        />
       </div>
     </div>
   );
