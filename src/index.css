@@ -15,7 +15,7 @@
     @apply font-medium text-neutral-white;
   }
 
-  .nav-list li:last-child a {
+  header .nav-list li:last-child a {
     @apply text-primary-dark-blue;
   }
 
@@ -29,5 +29,17 @@
     border-radius: 5rem;
     background-color: rgba(250, 212, 0, .5);
     z-index: -1;
+  }
+
+  footer .logo path {
+    fill: hsl(167, 40%, 24%);
+  }
+
+  footer .nav-list li a {
+    @apply text-primary-dark-desaturated-cyan;
+  }
+
+  .social-links a i {
+    @apply text-2xl;
   }
 }
