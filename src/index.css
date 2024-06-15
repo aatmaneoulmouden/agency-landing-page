@@ -16,7 +16,7 @@
   }
 
   header .nav-list li:last-child a {
-    @apply text-primary-dark-blue;
+    @apply text-primary-dark-blue hover:text-neutral-white;
   }
 
   .section-link::after {
@@ -36,10 +36,10 @@
   }
 
   footer .nav-list li a {
-    @apply text-primary-dark-desaturated-cyan;
+    @apply text-primary-dark-desaturated-cyan hover:text-neutral-white;
   }
 
   .social-links a i {
-    @apply text-2xl;
+    @apply text-2xl hover:text-neutral-white;
   }
 }

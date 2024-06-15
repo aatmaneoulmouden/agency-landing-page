@@ -19,7 +19,7 @@ const Nav = () => {
             <li className="">
               <a
                 href=""
-                className="font-fraunces py-4 px-8 bg-neutral-white rounded-full border-primary-light-blue border-1 uppercase"
+                className="font-fraunces py-4 px-8 bg-neutral-white rounded-full border-primary-light-blue border-1 uppercase hover:bg-neutral-white/30"
               >
                 Contact
               </a>
