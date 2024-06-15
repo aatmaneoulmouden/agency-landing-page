@@ -5,6 +5,7 @@ const SingleFeature = (props) => {
   const title = props.feature.title;
   const description = props.feature.description;
   const image = props.feature.image;
+  const color = props.feature.color;
 
   return (
     <div className="feature grid grid-cols-2">
@@ -20,9 +21,10 @@ const SingleFeature = (props) => {
         </p>
         <a
           href=""
-          className="section-link uppercase font-fraunces font-bold text-neutral-very-dark-desaturated-blue w-fit relative"
+          className="feature-link uppercase font-fraunces font-bold text-neutral-very-dark-desaturated-blue w-fit relative group"
         >
           Learn more
+          <div className="absolute left-0 bottom-0 w-full h-1/2 rounded-full -z-10 group-hover:opacity-40" style={{backgroundColor: `${color}`}}></div>
         </a>
       </div>
       <div style={{ order: `${imageOrder}` }}>
