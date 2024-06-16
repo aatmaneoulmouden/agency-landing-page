@@ -22,7 +22,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects">
-      <div className="grid grid-cols-4">{displayProjects}</div>
+      <div className="grid grid-cols-2 lg:grid-cols-4">{displayProjects}</div>
     </section>
   );
 };

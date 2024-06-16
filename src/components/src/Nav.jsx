@@ -6,7 +6,7 @@ const Nav = () => {
           <a href="" className="logo">
             <img src="./logo.svg" alt="Sunnyside" />
           </a>
-          <ul className="nav-list flex gap-11">
+          <ul className="nav-list hidden gap-11 lg:flex">
             <li>
               <a href="">About</a>
             </li>

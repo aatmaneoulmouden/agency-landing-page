@@ -21,7 +21,7 @@ const Services = () => {
   ));
   return (
     <section id="services" className="services">
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         {displayServices}
       </div>
     </section>
