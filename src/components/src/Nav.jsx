@@ -1,5 +1,19 @@
+import { useState } from "react";
+import MobileMenu from "./MobileMenu";
+
 const Nav = () => {
-  // const menuIsOpen
+  const [menuStatus, setMenuStatus] = useState(false);
+
+  const handleMenuToggler = () => {
+    if (menuStatus === false) {
+      setMenuStatus(true);
+    } else {
+      setMenuStatus(false);
+    }
+  };
+
+  const displayMobileMenu = menuStatus && <MobileMenu />;
+
   return (
     <nav className="absolute top-0 left-0 right-0">
       <div className="container">
@@ -7,7 +21,7 @@ const Nav = () => {
           <a href="" className="logo">
             <img src="./logo.svg" alt="Sunnyside" />
           </a>
-          <button>
+          <button onClick={handleMenuToggler}>
             <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
@@ -16,6 +30,7 @@ const Nav = () => {
               />
             </svg>
           </button>
+          {displayMobileMenu}
           <ul className="nav-list hidden gap-11 lg:flex">
             <li>
               <a href="">About</a>
