@@ -17,6 +17,9 @@ export default {
       'barlow': ["Barlow", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        'triangle': 'linear-gradient(to bottom right, #ffffff00 0%, #ffffff00 50%, #ffffff 50%, #ffffff 100%)',
+      },
       colors: {
         primary: {
           'soft-red': 'hsl(7, 99%, 70%)',
