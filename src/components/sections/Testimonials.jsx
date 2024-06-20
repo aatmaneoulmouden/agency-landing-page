@@ -29,10 +29,10 @@ const Testimonials = () => {
     <SingleTestimonial testimonial={testimonial} key={index} />
   ));
   return (
-    <section className="p-0 lg:py-32 lg:px-24">
+    <section className="p-0 py-12 lg:py-32 lg:px-24">
       <div className="container">
-        <h2 className="uppercase font-fraunces font-extrabold text-2xl text-center text-neutral-grayish-blue tracking-[6px] mb-16">Client testimonials</h2>
-        <div className="grid gap-7 grid-cols-1 lg:grid-cols-3">{displayTestimonials}</div>
+        <h2 className="uppercase font-fraunces font-extrabold text-center text-neutral-grayish-blue mb-16 text-lg tracking-[2px] lg:tracking-[6px] lg:text-2xl">Client testimonials</h2>
+        <div className="grid gap-16 grid-cols-1 lg:grid-cols-3 lg:gap-7">{displayTestimonials}</div>
       </div>
     </section>
   );

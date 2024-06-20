@@ -10,7 +10,7 @@ const SingleFeature = (props) => {
   return (
     <div className="feature grid grid-cols-1 lg:grid-cols-2">
       <div
-        className="flex flex-col p-6 gap-4 items-center lg:items-start lg:gap-9 lg:p-40"
+        className="flex flex-col p-6 py-12 gap-4 items-center lg:items-start lg:gap-9 lg:p-40"
         style={{ order: `${textOrder}` }}
       >
         <h2 className="font-extrabold font-fraunces text-center text-neutral-very-dark-desaturated-blue text-3xl lg:text-5xl lg:text-left lg:leading-[54px]">

@@ -4,7 +4,7 @@ const SingleTestimonial = (props) => {
   const name = props.testimonial.name;
   const title = props.testimonial.title;
   return (
-    <article className="testimonial flex flex-col gap-y-10 items-center text-center">
+    <article className="testimonial flex flex-col gap-y-6 items-center text-center lg:gap-y-10">
       <img
         src={`./${image}.jpg`}
         alt={name}
