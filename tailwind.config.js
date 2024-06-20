@@ -4,6 +4,10 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'lg:order-1',
+    'lg:order-2',
+  ],
   theme: {
     container: {
       center: true,
