@@ -33,7 +33,12 @@ const SingleFeature = (props) => {
         <img
           src={`./desktop/${image}.jpg`}
           alt={title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover hidden lg:block"
+        />
+        <img
+          src={`./mobile/${image}.jpg`}
+          alt={title}
+          className="w-full h-full object-cover block lg:hidden"
         />
       </div>
     </div>
