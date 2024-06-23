@@ -2,7 +2,7 @@ import Nav from "./src/Nav";
 
 const Header = () => {
   return (
-    <header className="w-full h-screen relative bg-cover bg-center bg-[url('./desktop/image-header.jpg')]">
+    <header className="w-full h-screen relative bg-cover bg-center bg-[url('./mobile/image-header.jpg')] lg:bg-[url('./desktop/image-header.jpg')]">
       <Nav />
       <div className="flex flex-col items-center pt-44">
         <h1 className="uppercase font-fraunces font-extrabold text-neutral-white text-3xl text-center tracking-[8px] lg:text-6xl lg:tracking-[12px]">We are creatives</h1>
